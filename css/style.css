@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #f1f1f1 !important;
+}
+
+.bgNav{
+    background-color: rgb(141,94,186,0.8);
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar a{
+    border-radius: 5px;
+}
+
+.navbar img{
+    margin-left: 20px;
+}
+
+.admin{
+    margin-right: 20px;
+}
+
+.admin img{
+    filter: saturate(0%) hue-rotate(0deg) brightness(20);
+}
+
+.admin img:hover{
+    filter: none;
+}
+
+.navbar a:hover{
+    color: #bb0000 !important;
+}
+
+li.dropdown:last-child .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+/* index */
+.indexContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    height:80vh;
+}
+
+.indexContent img{
+    margin-left: 20px;
+}
+
+.indexContent input[type="submit"]{
+    background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+	border: 1px solid #414141;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+.indexContent input:hover{
+    background: linear-gradient(to right, #b40000, #9b0000);
+}
+
+/* login */
+.login{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #414141;
+    background: rgb(141,94,186,0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login h3{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.login input{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* formularios */
+.formularios{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.formularios2{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #414141;
+    background: rgb(141,94,186,0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.listaForm{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.listaForm a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.listaForm a:hover{
+    color: #BF0000;
+}
+  
+.formularios h3{
+    text-align: center;
+    margin-bottom: 40px;
+    border-top: 4px solid #BF0000;
+    border-bottom: 4px solid #BF0000;
+    padding: 4px;
+}
+
+.formImg{
+    text-align: center;
+    margin: 5px 0;
+}
+  
+.formularios input{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+  .formularios select{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .formularios label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .enviarCita input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #BF0000, #A70000);
+	color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+	border: 1px solid #414141;
+	border-radius: 16px;
+	cursor: pointer;
+  }
+  
+.enviarCita input[type="submit"]:hover{
+    background: linear-gradient(to right, #b40000, #9b0000);
+  }
+
+.inputInfo{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dropdown-item:hover{
+  background-color: #dcbaff !important;
+}
+
+/* Estadisticas */
+.graficas{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#menu{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.menu{
+    padding: 5px;
+    background-color: rgb(141,94,186,0.8);
+    border-radius: 5px;
+	color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu optgroup{
+    border-radius: 5px;
+	color: #ffffff;
+    font-size: 14px;
+}
+
+/* tablas */
+.tablaLabo{
+    padding: 20px;
+}
+
+.tablaLabo table, th, td{
+    border: 1px solid #414141;
+    font-size: 12px;
+}
+
+.tablaLabo label{
+    font-size: 12px;
+}
+
+.buscadorLabo label{
+    font-size: 12px;
+}
+
+.buscadorLabo input{
+    font-size: 12px;
+}
+
+.buscadorLabo select{
+    font-size: 12px;
+}
+
+.tablaLabo{
+    text-align: center;
+}
+
+.tablaLabo a:hover{
+    color: #4b4b4b !important;
+}
+
+.buscadorLabo{
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.buscadorLabo select, label, input{
+    margin-right: 5px;
+}
+
+.buscadorLabo select, label{
+    margin-bottom: 10px;
+}
+
+.row li{
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    padding: 4px;
+    background-color: #f1f1f1;
+}
+
+.row ul{
+    width: 20px;
+}
+
+.row a{
+    color: #414141 !important;
+}
+
+.sas .active{
+    background-color: #d3b4f3 !important;
+    border-color: #acacac !important;
+}
+
+/* modal editar */
+.modalEditar .inputInfo input{
+    width: 100%;
+}
+
+.modalEditar .inputInfo{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.modalEditar .inputInfo input[type="text"]{
+    text-transform: uppercase;
+}
+
+.modalEditar button[type="button"]{
+    margin-right: 599px;
+}
+
+.modalBotones .btn-primary{
+    background-color: #dcbaff !important;
+    color: black !important;
+    border: 1px solid #414141;
+}
+
+.modalBotones .btn-primary:hover{
+    background-color: #d3b4f3 !important;
+    border: 1px solid #414141;
+}
